@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery shopping </title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/7917d160db.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/icon.png " type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Header Section-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="./images/icon.png" alt="Logo">
+            <div class="logoname">
+                <p>Gorcery</p>
+                <p>Shopping</p>
+            </div>
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+        </nav>
+        <div class="icons">
+            <div class="fa-solid fa-bars" id="menu-btn"></div>
+            <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+            <div class="fa-solid fa-cart-shopping" id="cart-btn"></div>
+            <div class="fa-solid fa-user" id="login-btn"></div>
+
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here..." class="box">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa-solid fa-trash"></i>
+                <img src="./images/dairyproduct3.png" alt="Ghee">
+                <div class="content">
+                    <h3>Ghee</h3>
+                    <span class="price">Rs.600/-</span>
+                    <span class="quantity">Qty : 2</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-trash"></i>
+                <img src="./images/vegetable1.png" alt="Potato">
+                <div class="content">
+                    <h3>Potato</h3>
+                    <span class="price">Rs.50/-</span>
+                    <span class="quantity">Qty : 2</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-trash"></i>
+                <img src="./images/vegetable3.png" alt="Onion">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">Rs.40/-</span>
+                    <span class="quantity">Qty : 3</span>
+                </div>
+            </div>
+            <div class="total">Total : Rs.1420/-</div>
+            <a href="#" class="btn">CheckOut</a>
+        </div>
+        <div class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Enter Your Email" class="box">
+            <input type="password" placeholder="Enter Your Password" class="box">
+            <p>Forget Your Password
+                <a href="#">Click Here</a>
+            </p>
+            <p>Don't have an Account
+                <a href="#">Create Now</a>
+            </p>
+            <input type="submit" value="Login Now" class="btn">
+
+        </div>
+    </header>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3><span>Fresh</span> and <span>Organic</span> grocery Products for You</h3>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h1 class="heading"><span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/img2.png" alt="">
+                <h3>Fresh and Organic</h3>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="./images/img3.png" alt="">
+                <h3>Free Delivery</h3>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="./images/img4.png" alt="">
+                <h3>Easy Payments</h3>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h1 class="heading"><span>Products</span></h1>
+        <div class="cat" id="vegetables">
+            <h2>Fresh Vegetables</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable1.png" alt="Potato">
+                        <h3>Potato per kg</h3>
+                        <div class="price"> 1 kg - Rs. 50.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable2.png" alt="Tomato">
+                        <h3>Tomato per kg</h3>
+                        <div class="price"> 1 kg - Rs. 80.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable3.png" alt="Onion">
+                        <h3>Onion per kg</h3>
+                        <div class="price"> 1 kg - Rs. 40.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable4.png" alt="Green Capsicum">
+                        <h3>Green Capsicum per kg</h3>
+                        <div class="price"> 1 kg - Rs. 80.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable5.png" alt="Cluster Beans">
+                        <h3>Cluster Beans per kg</h3>
+                        <div class="price"> 1 kg - Rs. 90.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable6.png" alt="Cucumber">
+                        <h3>Cucumber per kg</h3>
+                        <div class="price"> 1 kg - Rs. 60.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable7.png" alt="Brinjal">
+                        <h3>Brinjal per kg</h3>
+                        <div class="price">1 kg - Rs. 55.00/- </div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/vegetable8.png" alt="Cabbage">
+                        <h3>Cabbage per Pc</h3>
+                        <div class="price"> 1 Pc - Rs. 35.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cat" id="fruits">
+            <h2>Fresh Fruits</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit1.png" alt="Apple">
+                        <h3>Apple per kg(8 Pcs)</h3>
+                        <div class="price"> Rs. 150.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit2.png" alt="Pomegranate">
+                        <h3>Pomegranate 4 Pcs</h3>
+                        <div class="price">Rs. 100.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit3.png" alt="Banana">
+                        <h3>Banana - 500g </h3>
+                        <div class="price"> Rs. 50.00/- </div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit4.png" alt="Papaya">
+                        <h3>Papaya per Pc</h3>
+                        <div class="price"> 1 Pc - Rs. 35.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit5.png" alt="Orange">
+                        <h3>Orange 4 Pcs</h3>
+                        <div class="price"> Rs. 130.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit6.png" alt="Kiwi">
+                        <h3>Kiwi 4 Pcs</h3>
+                        <div class="price"> Rs. 125.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit7.png" alt="Custard Apple">
+                        <h3>Custard Apple 4pcs</h3>
+                        <div class="price"> Rs. 120.00/- </div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/fruit8.png" alt="Mosambi">
+                        <h3>Mosambi per kg</h3>
+                        <div class="price"> Rs. 45.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cat" id="DairyProducts">
+            <h2>Dairy Products</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="box swiper-slide">
+                        <img src="./images/dairyproduct1.png" alt="Butter">
+                        <h3>Butter</h3>
+                        <div class="price">500g - Rs. 250.00/- </div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dairyproduct2.png" alt="Milk">
+                        <h3> Milk</h3>
+                        <div class="price">1 lit. - Rs. 50.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dairyproduct3.png" alt="Ghee">
+                        <h3>Ghee</h3>
+                        <div class="price"> 1 lit. - Rs. 600.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dairyproduct4.png" alt="Curd">
+                        <h3>Curd</h3>
+                        <div class="price"> 500g - Rs. 50.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dairyproduct5.png" alt="Chesse">
+                        <h3>Chesse (10 Slices)</h3>
+                        <div class="price"> 200g - Rs. 100.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dairyproduct6.png" alt="Paneer">
+                        <h3>Paneer </h3>
+                        <div class="price"> 200g - Rs. 150.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cat" id="dryfruits">
+            <h2>Dry Fruits</h2>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="box swiper-slide">
+                        <img src="./images/dryfruit1.png" alt="Almonds">
+                        <h3>Almonds per kg</h3>
+                        <div class="price"> 1 kg - Rs. 650.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dryfruit2.png" alt="Cashews">
+                        <h3>Cashews per kg</h3>
+                        <div class="price"> 1 kg - Rs. 720.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dryfruit3.png" alt="Walnuts">
+                        <h3>Walnuts - 500g Pack</h3>
+                        <div class="price"> 1 Pack - Rs. 680.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dryfruit4.png" alt="Peanuts">
+                        <h3>Peanuts - 500g Pack</h3>
+                        <div class="price"> 1 Pack - Rs. 200.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dryfruit5.png" alt="Dates">
+                        <h3>Dates - 500g Pack</h3>
+                        <div class="price"> 1 Pack - Rs. 250.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dryfruit6.png" alt="Raisins">
+                        <h3>Raisins - 500g pack</h3>
+                        <div class="price"> 1 Pack - Rs. 300.00/-</div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./images/dryfruit7.png" alt="Pistachios">
+                        <h3>Pistachios - 500g Pack</h3>
+                        <div class="price">1 Pack - Rs. 500.00/- </div>
+                        <a href="#" class="btn">Add</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section-->
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/cat1.png" alt="Vegetables">
+                <h3>Vegetables</h3> 
+                <p>Upto 45% off</p>
+                <a href="#vegetables" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="./images/cat2.png" alt="Fruits">
+                <h3>Fruits</h3>
+                <p>Upto 35% off</p>
+                <a href="#fruits" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="./images/cat3.png" alt="Dairy Products">
+                <h3>Dairy Products</h3>
+                <p>Upto 40% off</p>
+                <a href="#DairyProducts" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="./images/cat4.png" alt="Dry Furits">
+                <h3>Dry Furits</h3>
+                <p>Upto 30% off</p>
+                <a href="#dryfruits" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>
+                    <i class="fa-solid fa-basket-shopping "style="color: #87ceeb" ></i>
+                    Grocery Shopping
+                </h3>
+                <div class="share">
+                    <a href="#" class="fa-brands fa-x-twitter"></a>
+                    <a href="#" class="fa-brands fa-facebook"></a>
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-whatsapp"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="tel: +22 2444 0822" class="links"><i class="fa-solid fa-phone" style="color: #87ceeb"></i> +22 2444 0822</a>
+                <a href="tel: +22 2854 0932" class="links"><i class="fa-solid fa-phone" style="color: #87ceeb"></i> +22 2854 0932</a>
+                <a href="mailto: abcd@gmail.com" class="links" id="ownemail"><i class="fa-solid fa-envelope" style="color: #87ceeb"></i> abcd@gmail.com</a>
+                <a href="#" class="links"><i class="fa-sharp fa-solid fa-location-dot" style="color: #87ceeb"></i> Mumbai, India.</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="links"><i class="fa-solid fa-arrow-right" style="color: #87ceeb"></i>Home</a>
+                <a href="#features" class="links"><i class="fa-solid fa-arrow-right" style="color: #87ceeb"></i>Features</a>
+                <a href="#products" class="links"><i class="fa-solid fa-arrow-right" style="color: #87ceeb"></i>Products</a>
+                <a href="#categories" class="links"><i class="fa-solid fa-arrow-right" style="color: #87ceeb"></i>Categories</a>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p id="sub">Subscribe For latest Updates</p>
+                <input type="email" placeholder="Enter Your Email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
