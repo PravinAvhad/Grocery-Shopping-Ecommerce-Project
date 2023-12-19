@@ -1,1 +1,1 @@
-This is Simple and Responsive HTML,CSS & JAVASCRIPT Project.
+This is Simple and Responsive Project to understand HTML,CSS & JAVASCRIPT Concepts.
